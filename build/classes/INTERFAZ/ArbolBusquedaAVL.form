@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/IMAGENES/menu.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Menu"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMImagenG">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/IMAGENES/abb.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="GENERAR IMAGEN"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMImagenGActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMEncrypt">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/IMAGENES/icons8-criptograf&#xed;a-externa-criptograf&#xed;a-relleno-suave-relleno-suave-pez-jugoso-17.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ENCRYPT"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMEncryptActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="Decrypt">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/IMAGENES/icons8-cryptography-17.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="DECRYPT"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DecryptActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/IMAGENES/cerrar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cerrar"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMSalir">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Salir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMSalirActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/IMAGENES/regresar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Regresar"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMRegresar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Regresar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMRegresarActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="1093" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="618" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="227" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="208" max="-2" attributes="0"/>
+                      <Component id="jBtnIngresar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                      <Component id="jBtnBuscar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                      <Component id="jBtnActualizar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                      <Component id="jBtnEliminar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                      <Component id="jBtnPreOrden" min="-2" pref="91" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
+                      <Component id="jBtnInOrden" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                      <Component id="jBtnPostOrden" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="jBtnCargarA" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="jBtnArcPersonalizado" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jBtnGuardarArc" min="-2" pref="183" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="51" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Tiempo" min="-2" pref="149" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jBtnCargarA" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="jBtnArcPersonalizado" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="jBtnGuardarArc" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="30" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Tiempo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="270" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jBtnPreOrden" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jBtnInOrden" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jBtnPostOrden" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jBtnIngresar" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="jBtnBuscar" alignment="3" max="32767" attributes="0"/>
+                  <Component id="jBtnActualizar" alignment="3" max="32767" attributes="0"/>
+                  <Component id="jBtnEliminar" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Showcard Gothic" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ARBOL BINARIO DE BUSQUEDA AVL"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnCargarA">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/IMAGENES/cargarA.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cargar Archivo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCargarAActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnArcPersonalizado">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/IMAGENES/icons8-agregar-archivo-30.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cargar Arc. Personalizado"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnArcPersonalizadoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnGuardarArc">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/IMAGENES/icons8-guardar-30 (1).png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Guardar Documento"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnGuardarArcActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTNodos">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="9" rowCount="0">
+                <Column editable="false" title="Nombre" type="java.lang.String"/>
+                <Column editable="false" title="DPI" type="java.lang.Long"/>
+                <Column editable="false" title="Depatamento" type="java.lang.String"/>
+                <Column editable="false" title="Municipio" type="java.lang.String"/>
+                <Column editable="false" title="Lugar V." type="java.lang.String"/>
+                <Column editable="false" title="No. Dosis" type="java.lang.Integer"/>
+                <Column editable="false" title="Dosis 1" type="java.lang.String"/>
+                <Column editable="false" title="Dosis 2" type="java.lang.String"/>
+                <Column editable="false" title="Dosis 3" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jBtnInOrden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="InOrden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnInOrdenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnPreOrden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PreOrden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnPreOrdenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnPostOrden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PostOrden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnPostOrdenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnIngresar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/IMAGENES/Ingresar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ingresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnIngresarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnBuscar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/IMAGENES/buscar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnBuscarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnActualizar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/IMAGENES/actualizar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Actualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnActualizarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnEliminar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/IMAGENES/eliminar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Eliminar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnEliminarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiempo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tiempo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="."/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
